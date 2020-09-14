@@ -4,10 +4,6 @@ import "./card.css";
 import axios from "axios";
 import ReactCardFlip from "react-card-flip";
 
-const Sprite = styled.img`
-  width: 6em !important;
-  height: 6em !important;
-`;
 const colors = {
   fire: "#FDDFDF",
   grass: "#DEFDE0",
@@ -24,7 +20,6 @@ const colors = {
   fighting: "#E6E0D4",
   normal: "#F5F5F5",
 };
-const main_types = Object.keys(colors);
 
 export default function Card(props) {
   const [pokemonName, setPokemonName] = useState();
@@ -32,8 +27,8 @@ export default function Card(props) {
   const [pokemonIndex, setPokemonIndex] = useState();
   const [pokemonType, setPokemonType] = useState();
   const [pokemonStats, setpokemonStats] = useState([]);
-  var [isFlipped, setIsFlipped] = useState(false);
-  var [loading, setLoading] = useState(true);
+  const [isFlipped, setIsFlipped] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);

@@ -1,11 +1,12 @@
 import React from "react";
-import Page2 from "./page2";
-import Home from "./home";
+import Page2 from "./navigation/page2";
+import Home from "./navigation/home";
 import { Switch, Route } from "react-router-dom";
-import LoginSucces from "./loginSucces";
+import LoginSucces from "./navigation/loginSucces";
+import styles from "./section.module.css";
 
 const Section = () => (
-  <main>
+  <main className={styles.section}>
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/Page2" component={Page2} />

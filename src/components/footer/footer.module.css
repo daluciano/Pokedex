@@ -1,0 +1,46 @@
+.footer {
+  min-height: 5rem;
+  background-color: #ef5350;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.content {
+  display: inline-block;
+  width: 10%;
+  margin: 0.5rem;
+  color: white;
+  text-align: center;
+}
+
+.copyright {
+  width: 50%;
+  margin: 0.5rem;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 860px) {
+  .footer {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .copyright {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+  color: white;
+}

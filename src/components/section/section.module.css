@@ -1,0 +1,11 @@
+.section {
+  background-color: white;
+  min-height: calc(100vh - 8rem);
+  padding: 0.5rem;
+}
+
+.Title {
+  font-family: cursive;
+  text-align: center;
+  color: #ef5350;
+}

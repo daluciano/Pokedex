@@ -1,0 +1,40 @@
+.logIn {
+  background: rgba(0, 0, 0, 0);
+  border: rgba(0, 0, 0, 0);
+  margin-right: 1rem;
+}
+.logIn:focus {
+  color: #007bff;
+  border: rgba(0, 0, 0, 0);
+  outline: rgba(0, 0, 0, 0);
+}
+
+.sigIn {
+  background: #ef5350 !important;
+  color: white;
+  border-color: white !important;
+}
+
+.mainButton {
+  color: white;
+  font-size: 1.5rem;
+  border: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  outline: rgba(0, 0, 0, 0);
+}
+.mainButton:focus {
+  border: rgba(0, 0, 0, 0);
+  outline: rgba(0, 0, 0, 0);
+}
+.mainButton:hover {
+  color: #0099ff !important;
+}
+
+.mainButton svg:hover {
+  color: #0099ff !important;
+}
+
+button:hover {
+  border-color: #007bff !important;
+  color: #0099ff !important;
+}

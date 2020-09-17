@@ -58,7 +58,7 @@ export default function ItemModal(props) {
                 className={styles.close2}
                 type="submit"
                 onClick={() => {
-                  history.push("/LoginSucces");
+                  history.push("/Pokedex/LoginSucces");
                 }}
               >
                 Log in

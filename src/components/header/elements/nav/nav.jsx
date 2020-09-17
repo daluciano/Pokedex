@@ -15,7 +15,7 @@ export default function Nav() {
       <ItemModal showModal={showModal}></ItemModal>
       <Link
         id="Pokedex"
-        to="/"
+        to="/Pokedex"
         className="nav-item mainButton"
         style={{ display: "flex" }}
       >
@@ -46,7 +46,16 @@ export default function Nav() {
         <ul class="navbar-nav mr-auto">
           <li class="nav-item ">
             <Link
-              to="/Page2"
+              to="/Pokedex/First-Generation"
+              className="nav-item mainButton"
+              style={{ display: "flex", marginLeft: "2rem" }}
+            >
+              Primera Generación
+            </Link>
+          </li>
+          <li class="nav-item ">
+            <Link
+              to="/Pokedex/Second-Generation"
               className="nav-item mainButton"
               style={{ display: "flex", marginLeft: "2rem" }}
             >

@@ -72,14 +72,14 @@ export default function Nav() {
               setShowModal(!showModal);
             }}
           >
-            <FiLogIn /> Log in
+            <FiLogIn /> Iniciar sesión
           </button>
           <button
             type="button"
             className="btn btn-primary sigIn"
             style={{ display: "inline-block" }}
           >
-            <IoMdLogIn /> Sign up
+            <IoMdLogIn /> Registrarse
           </button>
         </form>
       </div>

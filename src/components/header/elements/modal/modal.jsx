@@ -24,30 +24,30 @@ export default function ItemModal(props) {
       <Modal.Body>
         <Form>
           <Form.Group controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
+            <Form.Label>Correo electrónico</Form.Label>
             <Form.Control
               type="email"
-              placeholder="Enter email"
+              placeholder="Ingrese correo"
               onChange={(e) => {
                 setEmail(e);
               }}
             />
             <Form.Text className="text-muted">
-              We'll never share your email with anyone else.
+              Nunca compartiremos su correo electrónico con nadie más.
             </Form.Text>
           </Form.Group>
           <Form.Group controlId="formBasicPassword">
-            <Form.Label>Password</Form.Label>
+            <Form.Label>Contraseña</Form.Label>
             <Form.Control
               type="password"
-              placeholder="Password"
+              placeholder="Contraseña"
               onChange={(e) => {
                 setPassword(e);
               }}
             />
           </Form.Group>
           <Form.Group controlId="formBasicCheckbox">
-            <Form.Check type="checkbox" label="Remember me" />
+            <Form.Check type="checkbox" label="Recuérdame" />
           </Form.Group>
           <Route
             render={(
@@ -61,7 +61,7 @@ export default function ItemModal(props) {
                   history.push("/Pokedex/LoginSucces");
                 }}
               >
-                Log in
+                Iniciar sesión
               </Button>
             )}
           />

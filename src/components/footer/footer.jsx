@@ -21,7 +21,7 @@ export default function Footer() {
           >
             <FaLinkedin />
             <a style={{ color: "white", display: "block", cursor: "pointer" }}>
-              My linkedin
+              Linkedin
             </a>
           </div>
         </IconContext.Provider>

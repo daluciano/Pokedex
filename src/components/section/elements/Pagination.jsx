@@ -10,7 +10,7 @@ export default function Pagination({ gotoPrevPage, gotoNextPage }) {
           style={{ display: "inline-block" }}
           onClick={gotoPrevPage}
         >
-          Previous
+          Anterior
         </button>
       )}
       {gotoNextPage && (
@@ -20,7 +20,7 @@ export default function Pagination({ gotoPrevPage, gotoNextPage }) {
           style={{ display: "inline-block" }}
           onClick={gotoNextPage}
         >
-          Next
+          Siguiente
         </button>
       )}
     </div>

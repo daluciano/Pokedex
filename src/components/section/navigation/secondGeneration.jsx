@@ -6,7 +6,7 @@ export default function secondGeneration() {
   return (
     <div>
       <div className="col container" style={{ width: "50%" }}>
-        <h1 className={styles.Title}> segunda generación </h1>
+        <h1 className={styles.Title}> Segunda generación </h1>
         <ListCards offset={151} />
       </div>
     </div>
